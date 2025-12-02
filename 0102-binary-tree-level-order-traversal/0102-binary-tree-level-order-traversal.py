@@ -11,10 +11,10 @@ class Solution:
             return []
         q=deque([root])
         ans=[]
-        while(len(q)>0):
-            level=[]  #inside loop because when level is placed in ans it should be empty
+        while(len(q)>0:
+            level=[]  
             for _ in range(len(q)):
-                node=q.popleft()    #to pop left deque is used
+                node=q.popleft()   
                 if(node.left):
                     q.append(node.left)
                 if(node.right):
