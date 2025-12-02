@@ -11,7 +11,7 @@ class Solution:
             return []
         q=deque([root])
         ans=[]
-        while(len(q)>0:
+        while(len(q))>0:
             level=[]  
             for _ in range(len(q)):
                 node=q.popleft()   
